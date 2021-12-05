@@ -1,0 +1,248 @@
+
+
+  header {
+    padding: 50px;
+}
+
+
+body {
+    margin: 0;
+    background-image: url('../img/vector-DEC-2020-34_generated.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.90;
+
+}
+
+pre {
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    color: rgb(23, 65, 94);
+    text-align: center;
+}
+
+
+ .columnleft {
+            float: left;
+            margin-left: 10%;
+            width: 50%;
+        }
+
+.columnright {
+            float: right;
+            width: 40%;
+            margin-right: 0;
+        }
+
+ footer {
+clear: both;
+position: relative;
+bottom: 0;
+width: 100%;
+text-align: center;
+border: 2px solid rgb(184, 166, 166);
+border-style: dashed none none none;
+        }
+
+ .mediafacebook,
+ .mediainsta,
+.medialinkedin {
+            transition: transform .2s;
+            vertical-align: bottom;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+ .mediafacebook:hover,
+.mediainsta:hover,
+.medialinkedin:hover {
+            transform: scale(1.5);
+        }
+
+/* criacao do MENU */
+
+.navfixed {
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(222, 229, 235);
+    opacity: 0.70;
+    width: 100%;
+}
+
+.navbar {
+    overflow: hidden;
+    top: 0;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+}
+
+.dropDown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropDown .dropBtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    text-align: center;
+    background-color: inherit;
+    font-family: 'Barlow', sans-serif;
+}
+
+.navbar a:hover,
+.dropDown:hover .dropBtn {
+    background-color: rgb(128, 161, 177);
+}
+
+.dropContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropContent a {
+    float: none;
+    color: black;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Barlow', sans-serif;
+}
+
+.dropContent a:hover {
+    background-color: #c9c9c9;
+    opacity: 0.20;
+}
+
+.dropDown:hover .dropContent {
+    display: block;
+}
+
+
+.myThumb {
+
+    width: 15%;
+   
+}
+
+
+.myThumbImage {
+    width: 100%;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.myThumbImage:hover {
+    opacity: 1;
+}
+
+
+.mySlideShow {
+    max-width: 95%;
+    /* position: relative;
+    margin: auto; */
+}
+
+.mySlide {
+    display: none;
+}
+
+.myNumber {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top:34%;
+}
+
+.myImage {
+    width: 100%;
+}
+
+
+.nextBtn, .prevBtn {
+    position: absolute;
+    top: 65%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+}
+
+.prevBtn {
+    border-radius: 0 3px 3px 0;
+}
+
+.nextBtn {
+    left: 54.5%;
+    border-radius: 3px 0 0 3px;
+}
+
+    .nextBtn:hover, .prevBtn:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+.myNav {
+    text-align: center;
+    user-select: none;
+    margin-bottom: 10%;
+}
+
+.myDot {
+    user-select: none;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    background-color: #bbbbbb;
+    margin: 0 2px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+    .active, .myDot:hover {
+        background-color: #717171;
+    }
+
+ .fade, .infinite-spinnin {
+  
+    animation-name: fade;
+    animation-duration: 1.5s;
+
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1;
+    }
+} 
+

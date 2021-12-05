@@ -1,0 +1,243 @@
+header {
+
+    background-image: url('../img/business.jpg');
+    background-color: rgb(211, 240, 253);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    opacity: 0.80;
+    padding: 50px;
+    text-align: center;
+    font-size: 26px;
+    color: rgb(82, 99, 109);
+    text-shadow: 2px 2px white;
+    text-align: right;
+}
+
+
+body {
+    margin: 0;
+    background-image: url('../img/vector-DEC-2020-34_generated.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.maintitles {
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 35px;
+    text-shadow: 0px 2px 2px rgb(97, 92, 92), 5px 10px 2px rgb(135, 135, 138);
+
+}
+
+.titles {
+    font-family: 'Red Hat Mono', monospace;
+    font-weight: bold;
+    text-decoration: underline
+}
+
+.subtitles {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-style: normal;
+}
+
+.border {
+    border: 10px solid #92b4bd;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+    background-image: linear-gradient(to right, rgba(247, 240, 240, 0), rgb(199, 205, 209));
+    border-top: 20px solid #7a817c;
+    border-bottom: 20px solid #00deff;
+    background-image:
+        linear-gradient(#7a817c, #00deff),
+        linear-gradient(#7a817c, #00deff);
+    background-size: 10px 100%;
+    background-position: 0 0, 100% 0;
+    background-repeat: no-repeat;
+}
+
+fieldset {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    float: left;
+    font-size: 20px;
+    opacity: 0.80;
+    border: none;
+}
+
+#field1 {
+    margin: 20px 0px 20px 0px;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+}
+
+#field2 {
+    margin: 20px 0px 20px 0px;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+}
+
+#field3 {
+    margin-top: 7%;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+
+.submit {
+    padding: 250px;
+    margin-top: 12%;
+    text-align: center;
+    color: white;
+    margin-bottom: -15%;
+}
+
+.select {
+    cursor: pointer;
+    text-align: left;
+    margin: auto;
+    padding-left: 45%;
+}
+
+.select::before {
+    content: '';
+    clear: both;
+    display: table;
+
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform .2s;
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    border-top: 10px solid #7a817c;
+    border-bottom: 10px solid #00deff;
+    background-image:
+        linear-gradient(#7a817c, #00deff),
+        linear-gradient(#7a817c, #00deff);
+    opacity: 0.5;
+    border-radius: 40%;
+    font-size: 16px;
+
+}
+
+.mediafacebook,
+.mediainsta,
+.medialinkedin {
+    transition: transform .2s;
+    vertical-align: bottom;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button:hover,
+.mediafacebook:hover,
+.mediainsta:hover,
+.medialinkedin:hover {
+    transform: scale(1.5);
+}
+
+.box {
+    background: none;
+    border: 2px solid rgb(116, 116, 116);
+    border-style: none none solid none;
+    font-size: 15px;
+
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border: 2px solid rgb(184, 166, 166);
+    border-style: dashed none none none;
+}
+
+
+.navfixed {
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(222, 229, 235);
+    opacity: 0.70;
+    width: 100%;
+}
+
+.navbar {
+    overflow: hidden;
+    top: 0;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+}
+
+.dropDown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropDown .dropBtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    text-align: center;
+    background-color: inherit;
+    font-family: 'Barlow', sans-serif;
+}
+
+.navbar a:hover,
+.dropDown:hover .dropBtn {
+    background-color: rgb(128, 161, 177);
+}
+
+.dropContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropContent a {
+    float: none;
+    color: black;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Barlow', sans-serif;
+}
+
+.dropContent a:hover {
+    background-color: #c9c9c9;
+    opacity: 0.20;
+}
+
+.dropDown:hover .dropContent {
+    display: block;
+}

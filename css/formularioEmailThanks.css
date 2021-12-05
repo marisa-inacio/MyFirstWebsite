@@ -1,0 +1,83 @@
+body {
+    background-image: url('img/tenor.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    padding: 15px;
+    margin: 400px;
+    margin-top: 0px;
+}
+
+section {
+
+    font-size: 40px;
+    font-style: italic;
+    margin-top: 100px;
+    color: rgb(95, 123, 160);
+    z-index: -1;
+}
+
+.navbar {
+    overflow: hidden;
+    /* background-color: #333333;
+    opacity: 0.80; */
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+}
+
+.dropDown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropDown .dropBtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    text-align: center;
+    background-color: inherit;
+    font-family: 'Barlow', sans-serif;
+}
+
+.navbar a:hover,
+.dropDown:hover .dropBtn {
+    background-color: rgb(128, 161, 177);
+}
+
+.dropContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropContent a {
+    float: none;
+    color: black;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Barlow', sans-serif;
+}
+
+.dropContent a:hover {
+    background-color: #dddddd;
+    opacity: 0.20;
+}
+
+.dropDown:hover .dropContent {
+    display: block;
+}

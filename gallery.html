@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow&family=Fruktur&family=Red+Hat+Mono:wght@700&family=Roboto:wght@100&family=Zen+Kaku+Gothic+Antique&display=swap"
+        rel="stylesheet">
+
+    <script src="js/gallery.js"></script>
+
+    <link href="css/gallery.css" rel="stylesheet" />
+
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+
+    <nav class="navfixed">
+
+        <div class="navbar">
+            <a href="home.html"><i class="fas fa-home"></i> Home</a>
+            <div class="dropDown">
+                <button class="dropBtn"><i class="fas fa-arrow-down"></i> More</button>
+                <div class="dropContent">
+                    <a href="About.html">About</a>
+                    <a href="formularioCandidatura.html">Apply</a>
+                    <a href="formularioEmail.html">Contacts</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <header></header>
+
+
+    <div>
+
+
+        <h1><i class="fas fa-spinner fa-spin"></i>Gallery</h1>
+
+        <pre>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus architecto expedita repellat ut, soluta, 
+            dolorum omnis quos, maiores sint veritatis at vero totam culpa. Obcaecati repellendus fugit ipsa veniam et!
+
+        </pre>
+
+    </div>
+
+
+    <section>
+
+
+
+        <nav class="columnleft">
+            <div class="mySlideShow">
+                <div class="mySlide fade">
+                    <div class="myNumber">1-4</div>
+                    <img class="myImage" src="img/slide1.png" />
+                </div>
+                <div class="mySlide fade">
+                    <div class="myNumber">2-4</div>
+                    <img class="myImage" src="img/slide2.png" />
+                </div>
+                <div class="mySlide fade">
+                    <div class="myNumber">3-4</div>
+                    <img class="myImage" src="img/slide4.png" />
+                </div>
+                <div class="mySlide fade">
+                    <div class="myNumber">4-4</div>
+                    <img class="myImage" src="img/slide5.png" />
+                </div>
+                <a class="prevBtn" onclick="nextSlide(-1)">&#xab;</a>
+                <a class="nextBtn" onclick="nextSlide(1)">&#xbb;</a>
+            </div>
+            <div class="myNav">
+                <span class="myDot" onclick="currentSlide(1)"></span>
+                <span class="myDot" onclick="currentSlide(2)"></span>
+                <span class="myDot" onclick="currentSlide(3)"></span>
+                <span class="myDot" onclick="currentSlide(4)"></span>
+            </div>
+
+        </nav>
+
+
+
+        <article class="columnright">
+            <div class="sizeThumb">
+                <div class="myThumb">
+                    <img class="myThumbImage" onclick="currentSlide(1)" src="img/slide1.png" />
+                </div>
+                <div class="myThumb">
+                    <img class="myThumbImage" onclick="currentSlide(2)" src="img/slide2.png" />
+                </div>
+                <div class="myThumb">
+                    <img class="myThumbImage" onclick="currentSlide(3)" src="img/slide4.png" />
+                </div>
+                <div class="myThumb">
+                    <img class="myThumbImage" onclick="currentSlide(4)" src="img/slide5.png" />
+                </div>
+
+            </div>
+
+        </article>
+    </section>
+
+    <script>
+        showSlide(slideIndex);
+    </script>
+
+    <footer>
+
+        <div style="text-align: left;"> &copy;Copyright 2021. All rights reserved.</div>
+
+        <div>
+            Contacts and Social Media:
+
+            <span class="mediafacebook">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"
+                        style="color:rgb(0, 119, 181)"></i></a>
+            </span>
+            <span class="mediainsta">
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"
+                        style="color:rgb(138, 58, 185)"></i></a>
+            </span>
+            <span class="medialinkedin">
+                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-2x"
+                        style="color:rgb(0, 119, 181)"></i></a>
+            </span>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

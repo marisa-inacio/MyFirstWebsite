@@ -1,0 +1,166 @@
+        .title1 {
+            font-family: 'Red Hat Mono', monospace;
+            text-decoration: underline;
+        }
+
+        .title2 {
+            font-family: 'Red Hat Mono', monospace;
+            text-decoration: underline;
+            font-size: 12px;
+        }
+
+        .contactus {
+            font-family: 'Red Hat Mono', monospace;
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            text-shadow: 2px -2px 2px black;
+
+        }
+
+        .button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+        .box1 {
+            margin-left: 55px;
+            opacity: 0.5;
+
+        }
+
+        .box2 {
+            margin-left: 70px;
+            opacity: 0.5;
+
+        }
+
+        .box3 {
+            margin-left: 48px;
+            opacity: 0.5;
+        }
+
+        .box4 {
+            opacity: 0.6;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        fieldset {
+            background-image: linear-gradient(rgb(57, 154, 219) 40%, rgb(255, 255, 253) 60%);
+            font-size: 15px;
+            border: 4px solid black;
+            width: 60px;
+            margin-top: 5%;
+            margin-left: 50%;
+            margin-bottom: 0px;
+            border-width: 5px 2px 15px 8px;
+            border-radius: 30px;
+            outline: 10px solid black;
+
+        }
+
+        body {
+            margin: 0;
+            background-image: url('../img/2098638.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+            opacity: 0.90;
+
+        }
+
+        .navbar {
+            overflow: hidden;
+            top: 0;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            padding: 14px 16px;
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Barlow', sans-serif;
+        }
+
+        .dropDown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropDown .dropBtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            text-align: center;
+            background-color: inherit;
+            font-family: 'Barlow', sans-serif;
+        }
+
+        .navbar a:hover,
+        .dropDown:hover .dropBtn {
+            background-color: rgb(128, 161, 177);
+        }
+
+        .dropContent {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropContent a {
+            float: none;
+            color: black;
+            display: block;
+            padding: 14px 16px;
+            text-decoration: none;
+            text-align: left;
+            font-family: 'Barlow', sans-serif;
+        }
+
+        .dropContent a:hover {
+            background-color: #c9c9c9;
+            opacity: 0.20;
+        }
+
+        .dropDown:hover .dropContent {
+            display: block;
+        }
+
+
+        footer {
+            clear: both;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            background-color: rgba(146, 193, 214, 0.5);
+            font-weight: bold;
+            text-align: center;
+            border: 2px solid rgb(184, 166, 166);
+            border-style: dashed none none none;
+        }
+
+        .mediafacebook,
+        .mediainsta,
+        .medialinkedin {
+            transition: transform .2s;
+            vertical-align: bottom;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .mediafacebook:hover,
+        .mediainsta:hover,
+        .medialinkedin:hover {
+            transform: scale(1.5);
+        }

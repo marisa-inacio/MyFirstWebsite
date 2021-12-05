@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Azeret Mono', monospace;
+    margin: 0;
+    background-image: url('../img/technology-wallpaper-5i5r4rslj1yqs72v.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+
+.video {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+    filter: drop-shadow(10px 10px 5px #070707);
+    border: radius 50%;
+    margin-bottom: 0px;
+}
+
+footer {
+    position: relative;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+    border: 2px solid rgb(184, 166, 166);
+    border-style: dashed none none none;
+}
+
+.mediafacebook,
+.mediainsta,
+.medialinkedin {
+    transition: transform .2s;
+    vertical-align: bottom;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mediafacebook:hover,
+.mediainsta:hover,
+.medialinkedin:hover {
+    transform: scale(1.5);
+}
+
+
+.navfixed {
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(222, 229, 235);
+    opacity: 0.70;
+    width: 100%;
+}
+
+.mySideNav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+
+.mySideNav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #caceee;
+    display: block;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.mySideNav a:hover {
+    color: #000000;
+}
+
+.mySideNav .closeBtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openBtn {
+    font-size: 30px;
+    cursor: pointer;
+}

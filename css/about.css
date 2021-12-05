@@ -1,0 +1,170 @@
+header {
+    padding: 50px;
+}
+
+body {
+    background-image: url('../img/vector-DEC-2020-34_generated.jpg');
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.90;
+
+}
+
+pre {
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    color: rgb(23, 65, 94);
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(23, 65, 94);
+    text-align: center;
+}
+
+.border {
+    width: 70%;
+    margin-left: 15%;
+    
+}
+
+.textRight {
+    float: left;
+    width: 20%;
+    height: 300px;
+    padding: 20px;
+    margin-left: 400px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.textLeft {
+    float: left;
+    padding: 20px;
+    width: 40%;
+    height: 300px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+@media (max-width: 800px) {
+
+    .nav,
+    .article {
+        width: 100%;
+        height: auto;
+
+    }
+}
+
+.navfixed {
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(174, 179, 184);
+    opacity: 0.70;
+    width: 100%;
+}
+
+
+.navbar {
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+}
+
+.dropDown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropDown .dropBtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    text-align: center;
+    background-color: inherit;
+    font-family: 'Barlow', sans-serif;
+}
+
+.navbar a:hover,
+.dropDown:hover .dropBtn {
+    background-color: rgb(94, 127, 143);
+}
+
+.dropContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropContent a {
+    float: none;
+    color: black;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Barlow', sans-serif;
+}
+
+.dropContent a:hover {
+    background-color: #dddddd;
+    opacity: 0.20;
+}
+
+.dropDown:hover .dropContent {
+    display: block;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border: 2px solid rgb(184, 166, 166);
+    border-style: dashed none none none;
+}
+
+.mediafacebook,
+.mediainsta,
+.medialinkedin {
+    transition: transform .2s;
+    vertical-align: bottom;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mediafacebook:hover,
+.mediainsta:hover,
+.medialinkedin:hover {
+    transform: scale(1.5);
+}

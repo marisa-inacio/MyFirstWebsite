@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularioEmail</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fruktur&family=Red+Hat+Mono:wght@700&family=Roboto:wght@100&family=Zen+Kaku+Gothic+Antique&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link href="css/formularioEmail.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+    <div class="navfixed">
+        <div class="navbar">
+            <a href="home.html"><i class="fas fa-home"></i> Home</a>
+            <!-- <a href="#news"><i class="far fa-newspaper"></i> News</a> -->
+            <div class="dropDown">
+                <button class="dropBtn"><i class="fas fa-arrow-down"></i> More</button>
+                <div class="dropContent">
+                    <a href="About.html">About</a>
+                    <a href="formularioCandidatura2.html">Apply</a>
+                    <a href="gallery.html">Gallery</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <header></header>
+
+
+    <form action="https://formsubmit.co/marisa.vicente.inacio@hotmail.com" method="POST">
+        <fieldset>
+            <legend></legend>
+            <h1><i class="far fa-paper-plane fa-2x"></i></h1>
+            <h3 class="contactus">Contact Us</h3>
+
+            <!-- <input type="text" name="name" required>
+        <input type="email" name="email" required> -->
+
+            <button class="title1 button" type="button" onclick="alert('De')">From:</button>
+            <input class="box1" type="text" name="name" required>
+            <br>
+            <br>
+            <button class="title1 button" type="button" onclick="alert('Para')">To:</button>
+            <input class="box2" type="email" name="email" required>
+            <br>
+            <br>
+            <label class="title2">Subject:</label>
+            <textarea class="box3" id="mensagem" name="mensagem" rows="1" cols="20"></textarea>
+            <br>
+            <br>
+            <label class="title2">Email:</label><br />
+            <textarea class="box4" id="mensagem" name="mensagem" rows="10" cols="50"
+                placeholder="Write here"></textarea>
+            <br>
+            <br>
+            <button class="title1 button" type="submit">Send</button>
+            <button class="title1 button" type="reset" value="Reset 2">Reset</button>
+            <input type="hidden" id=_next name="_next" value="http://127.0.0.1:5500/html/formularioEmailThanks.html">
+
+        </fieldset>
+
+    </form>
+
+
+
+</body>
+
+<br>
+<br>
+<br>
+
+<footer>
+
+    <div style="text-align: left;"> &copy;Copyright 2021. All rights reserved.</div>
+
+    <div>
+        Contacts and Social Media:
+
+        <span class="mediafacebook">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"
+                    style="color:rgb(0, 119, 181)"></i></a>
+        </span>
+        <span class="mediainsta">
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"
+                    style="color:rgb(138, 58, 185)"></i></a>
+        </span>
+        <span class="medialinkedin">
+            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-2x" style="color:rgb(0, 119, 181)"></i></a>
+        </span>
+
+
+    </div>
+
+
+</footer>
+
+</html>

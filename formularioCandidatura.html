@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularioCandidatura</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fruktur&family=Red+Hat+Mono:wght@700&family=Roboto:wght@100&family=Zen+Kaku+Gothic+Antique&display=swap"
+        rel="stylesheet">
+
+    <link href="css/formularioCandidatura.css" rel="stylesheet" />
+
+</head>
+
+<body style="background-color:rgb(245, 245, 245);">
+
+
+    <div class="navfixed">
+        <div class="navbar">
+            <a href="home.html"><i class="fas fa-home"></i> Home</a>
+            <div class="dropDown">
+                <button class="dropBtn"><i class="fas fa-arrow-down"></i> More</button>
+                <div class="dropContent">
+                    <a href="About.html">About</a>
+                    <a href="formularioEmail.html">Contacts</a>
+                    <a href="gallery.html">Gallery</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <form>
+
+        <header>
+            <h1>Apply</h1>
+            <h3>You're looking for you!</h3>
+        </header>
+        <br>
+        <br>
+
+        <div class="border outline-border">
+            <fieldset id="field1">
+                <legend class="maintitles">Personal Information</legend>
+                <br>
+                <textarea class="box" id="Dados" name="nome" placeholder="Nome Completo *" rows="1"
+                    cols="50"></textarea>
+                <br>
+                <br>
+                <label class="titles">Birth*</label><br />
+                <br>
+                <input class="box" type="date" required />
+                <br>
+                <br>
+                <select class="subtitles">
+                    <option value="EstadoCivil">Marital Status</option>
+                    <option value="Solteiro" select="selected">SINGLE</option>
+                    <option value="Casado" select="selected">MARRIED</option>
+                </select>
+                <br>
+                <br>
+                <textarea class="box" id="Dados" name="nome" placeholder="Contribuinte *" rows="1" cols="50"
+                    required></textarea>
+                <br>
+                <br>
+                <textarea class="box" id="Dados" name="nome" placeholder="Morada *" rows="1" cols="50"
+                    required></textarea>
+                <br>
+                <br>
+                <label class="titles">Hobbies</label><br />
+                <br>
+                <div class="select">
+                    <input class="select" type="checkbox" id="sports" name="sports" value="sports" />
+                    <label class="subtitles">Playing sports</label><br />
+                    <input class="select" type="checkbox" id="reading" name="reading" value="reading" />
+                    <label class="subtitles">Reading</label><br />
+                    <input class="select" type="checkbox" id="travelling" name="travelling" value="travelling" />
+                    <label class="subtitles">Travelling</label><br />
+                    <input class="select" type="checkbox" id="other" name="other" value="other" />
+                    <label class="subtitles">Other's</label><br />
+                    <textarea id="Dados" name="nome" rows="1" cols="20" required></textarea>
+
+                </div>
+
+            </fieldset>
+
+
+            <fieldset id="field2">
+                <legend class="maintitles">Profissional Information</legend>
+                <br>
+                <label class="titles">Professional Experience</label>
+                <br>
+                <br>
+                <input class="select" type="radio" id="EXPERIENCIA" value="SEM EXPERIENCIA" name="linguagem" autofocus
+                    step="1" />
+                <label class="subtitles" for="EXPERIENCIA">&lt; 2 years</label><br />
+                <input class="select" type="radio" id="MAIS DE DOIS ANOS" value="ATUALMENTE EMPREGADO" name="linguagem"
+                    autofocus step="1" />
+                <label class="subtitles" for="EXPERIENCIA">&gt; 2 years</label><br />
+                <br>
+                <br>
+                <label class="titles">Programming languages</label><br />
+                <br>
+                <div class="select">
+                    <input class="select" type="checkbox" id="html" name="html" value="html" />
+                    <label class="subtitles">HTML</label><br />
+                    <input class="select" type="checkbox" id="css" name="css" value="css" />
+                    <label class="subtitles">CSS</label><br />
+                    <input class="select" type="checkbox" id="javascript" name="javascript" value="javascript" />
+                    <label class="subtitles">JAVASCRIPT</label><br />
+                    <input class="select" type="checkbox" id="bootstrap" name="bootstrap" value="bootstrap" />
+                    <label class="subtitles">BOOTSTRAP</label><br />
+                </div>
+
+            </fieldset>
+            <br>
+            <br>
+
+
+            <fieldset id="field3">
+                <legend class="titles">Documents</legend> <br>
+                <label class="titles">CV:</label>
+                <input type="file" multiple />
+            </fieldset>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <div class="submit">
+
+                <button class="titles button" type="submit" value="Submeter">Submit</button>
+                <button class="titles button" type="reset" value="Reset">Reset</button>
+            </div>
+
+
+
+        </div>
+
+
+    </form>
+
+</body>
+
+<footer>
+
+    <div style="text-align: left;"> &copy;Copyright 2021. All rights reserved.</div>
+
+    <div>
+        Contacts and Social Media:
+
+        <span class="mediafacebook">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"
+                    style="color:rgb(0, 119, 181)"></i></a>
+        </span>
+        <span class="mediainsta">
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"
+                    style="color:rgb(138, 58, 185)"></i></a>
+        </span>
+        <span class="medialinkedin">
+            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-2x" style="color:rgb(0, 119, 181)"></i></a>
+        </span>
+
+
+    </div>
+
+
+</footer>
+
+</html>
